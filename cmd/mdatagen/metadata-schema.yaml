@@ -58,8 +58,8 @@ sem_conv_version: 1.9.0
 # Optional: JSON Schema based definition for the component's configuration structure.
 # This section defines the schema that could be used to generate:
 # - JSON Schema files that can be used for validation and documentation. (current)
-# - Go structs representing the configuration with appropriate types and validation tags. (future)
-# - Configuration reference documentation in the generated README files. (future)
+# - Go structs representing the configuration with appropriate types. (current)
+# - Configuration reference documentation in generated README files. (current)
 config:
   # Optional: Description of the configuration schema.
   description: string
